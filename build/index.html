@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="vim_container">
+      <iframe
+        id="vim_main_video"
+        src="https://player.vimeo.com/video/601252574?h=bd62b143a3&color=ffffff&title=0&byline=0&portrait=0&badge=0&background=true&muted=true&controls=true"
+        width="640"
+        height="360"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        muted="true"
+        allowfullscreen
+      ></iframe>
+      <div class="vim_top_bar">
+        <p>
+          <strong
+            ><i class="fas fa-volume-up"></i> Make Sure Your Sound Is Turned
+            ON!</strong
+          >
+          <span>(Please Wait For Video To Fully Load)</span>
+        </p>
+      </div>
+      <img
+        id="vim_play_btn"
+        src="./big-play-button.png"
+        alt="Play the Vimeo Video"
+      />
+      <img id="vim_sound_on" src="./sound-on3.png" alt="Sound on" />
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
